@@ -1,6 +1,6 @@
 const {Schema,model} =require('mongoose');
 
-const dataSchema = new Schema({
+const data_Schema = new Schema({
         student_name:{
             type:String,
             required:true
@@ -23,4 +23,4 @@ const dataSchema = new Schema({
     }
 );
 
-module.exports = model('Data',dataSchema); 
+module.exports = model('Data',data_Schema); 
